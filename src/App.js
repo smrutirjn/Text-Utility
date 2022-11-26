@@ -8,7 +8,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -48,7 +47,7 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} >
           </Route>
-          <Route path="/" element={<TextForm heading="Enter the text to analyze" showAlert={showAlert} mode={mode} />}>   
+          <Route path="/Text-Utility" element={<TextForm heading="Enter the text to analyze" showAlert={showAlert} mode={mode} />}>   
           </Route>
         </Routes>
 
